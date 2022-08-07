@@ -5,11 +5,11 @@ strings = ['dragon',
            'nightmare',
            'contribution',
            'mass']
-n = 10
+n = 8
 
 print('list:', strings)
-print('10 letters or short words:')
+print(n, 'letters or short words:')
 for w in strings:
-    if len(w) > 10:
+    if len(w) > n:
         continue
     print(w)
