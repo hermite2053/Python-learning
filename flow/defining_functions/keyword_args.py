@@ -1,5 +1,7 @@
 def print_distance(value, unit='meters'):
     print("Distance:", value, unit)
 
-print_distance(299792458) # is equal to light travels in 1 second.
-print_distance(220, 'yards') # is equal to 1 Furlong, used in horse racing.
+# 1 mile = 8 furlong = 1609.344 meters
+print_distance(1609.344)
+print_distance(8, 'furlongs') # used in horse racing.
+print_distance(1, unit='mile')
